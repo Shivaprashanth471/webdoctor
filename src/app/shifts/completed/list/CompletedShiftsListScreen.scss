@@ -1,0 +1,54 @@
+@import "src/assets/scss/common";
+
+.completed-shifts {
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 2px !important;
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none !important;
+  }
+  .shifts-completed-list-table {
+    .mat-td-title {
+      min-width: 200px;
+      max-width: 200px;
+    }
+    .mat-td-completed-date {
+      min-width: 50px;
+      max-width: 50px;
+    }
+
+    .mat-td-facility-name {
+      min-width: 100px;
+      max-width: 100px;
+    }
+
+    .mat-td-hcp-name {
+      min-width: 100px;
+      max-width: 100px;
+    }
+    .mat-td-hcp-type {
+      min-width: 100px;
+      max-width: 100px;
+    }
+    .mat-td-shift-type {
+      min-width: 80px;
+      max-width: 80px;
+    }
+    .mat-td-differential {
+      min-width: 50px;
+      max-width: 50px;
+    }
+    .mat-td-timesheet {
+      min-width: 50px;
+      max-width: 50px;
+    }
+    .mat-td-is-facility-approved {
+      min-width: 50px;
+      max-width: 50px;
+    }
+    .mat-td-actions {
+      min-width: 120px;
+      max-width: 120px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@import "src/assets/scss/common";
+
+.shift-master {
+	margin: auto;
+	text-align: center;
+	.disabled-link{
+		pointer-events: none;
+	}
+	.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+		padding: 2px !important;
+	}
+	.MuiPaper-elevation1 {
+		box-shadow: none !important;
+	}
+	.filter-icon {
+		font-size: 2rem;
+		color: $light-black;
+	}
+	.captalize{
+		text-transform: capitalize;
+		font-weight: 500;
+	}
+	.cancelled {
+		color: #f10000 !important;
+	}
+	.closed {
+		color: #00da16 !important;
+	}
+	.pending {
+		color: #454545 !important;
+	}
+	.complete {
+		color: #0c80e3 !important;
+	}
+	.in_progress {
+		color: #ffa800 !important;
+	}
+	.shift-master-list-table{
+		.mat-td-title {
+			min-width: 250px;
+			max-width: 250px;
+		}
+		.mat-td-hcp-name {
+			min-width: 250px;
+			max-width: 250px;
+		}
+
+		.mat-td-facility-name {
+			min-width: 250px;
+			max-width: 250px;
+		}
+
+		.mat-td-shift-date {
+			min-width: 120px;
+			max-width: 120px;
+		}
+		.mat-td-status {
+			min-width: 100px;
+			max-width: 100px;
+		}
+		.mat-td-shift-type {
+			min-width: 80px;
+			max-width: 80px;
+		}
+
+		.mat-td-hcp-type {
+			min-width: 100px;
+			max-width: 100px;
+		}
+
+		.mat-td-actions {
+			min-width: 120px;
+			max-width: 120px;
+		}
+	}
+}
